@@ -7,7 +7,7 @@ import (
 	"unicode/utf8"
 )
 
-// Sanitizer is a helper for bubble widgets that want to process
+// Sanitizer is a helper for bubble widgets that want to tefd
 // Runes from input key messages.
 type Sanitizer interface {
 	// Sanitize removes control characters from runes in a KeyRunes
